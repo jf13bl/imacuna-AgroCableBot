@@ -211,6 +211,7 @@ class MqttClient:
             self.last_position = message
 
     
+    
     def send_aio(self):
         """
         Método para publicar datos de sensores en un topic MQTT llamado 'sensores'.
